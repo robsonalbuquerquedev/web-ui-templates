@@ -6,6 +6,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Web UI Templates</title>
   <link rel="stylesheet" href="styles/main.css" />
+  <script>
+    (function () {
+      const repoName = "web-ui-templates";
+      const host = window.location.hostname;
+      const isGitHubPages = host.includes("github.io");
+
+      if (isGitHubPages) {
+        const base = document.createElement("base");
+        base.href = `/${repoName}/`;
+        document.head.appendChild(base);
+      }
+    })();
+  </script>
 </head>
 
 <body>
