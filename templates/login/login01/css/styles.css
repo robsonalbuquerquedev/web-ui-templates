@@ -1,0 +1,180 @@
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+main h1 {
+  align-self: center;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+main button {
+  align-self: center;
+  background-color: #A0BDFF;
+  border-radius: 0.8rem;
+  width: 9.3rem;
+  height: 4.3rem;
+  font-size: 2rem;
+  color: #001514;
+  cursor: pointer;
+}
+main button:hover {
+  background-color: #a0cfff;
+}
+main h2 {
+  align-self: center;
+  font-size: 2rem;
+}
+main #title-login {
+  background-color: #fff;
+  padding: 3rem;
+  text-align: center;
+}
+main #title-login h1 {
+  font-weight: bold;
+  font-size: 3rem;
+  text-transform: capitalize;
+}
+
+.login {
+  padding: 10rem;
+  display: grid;
+  margin: 0 auto;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.sc1 {
+  display: flex;
+  justify-content: center;
+  border-right: 0.2rem solid #001514;
+}
+
+.sc2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+.sc2 label {
+  font-size: 2rem;
+}
+.sc2 span {
+  color: red;
+  font-size: 1.5rem;
+}
+.sc2 input {
+  width: 50rem;
+  height: 4.3rem;
+  padding: 1rem;
+  background-color: #ccc;
+  border-bottom: 0.1rem solid #001514;
+}
+.sc2 a {
+  margin-top: 2rem;
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #05668D;
+}
+.sc2 a:hover {
+  text-decoration: underline;
+}
+.sc2 .btn {
+  display: block;
+  width: 40rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  list-style: none;
+  line-height: 1.6;
+}
+
+body {
+  background-color: #ccc;
+}
+
+@media screen and (max-width: 904px) {
+  .content-tools {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 945px) {
+  .sc1 img {
+    width: 40rem;
+  }
+}
+@media screen and (max-width: 945px) {
+  .sc1 img {
+    width: 30rem;
+  }
+}
+@media screen and (max-width: 745px) {
+  .login {
+    display: block;
+  }
+  .login .sc1 {
+    border: none;
+  }
+  .login .sc2 input {
+    width: 100%;
+  }
+  .login .sc2 .btn {
+    width: 30rem;
+  }
+}
+@media screen and (max-width: 690px) {
+  .content-cadastro {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media screen and (max-width: 597px) {
+  header {
+    display: block;
+    text-align: center;
+  }
+  .logo {
+    display: block;
+  }
+  .logo span {
+    display: block;
+  }
+  .search {
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .account {
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+  .icons {
+    justify-content: center;
+  }
+  nav {
+    flex-direction: column;
+  }
+  .content-tools,
+  .content {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  aside {
+    width: 100%;
+    display: block;
+  }
+}
+@media screen and (max-width: 431px) {
+  .login .sc2 .btn {
+    width: 20rem;
+  }
+}/*# sourceMappingURL=styles.css.map */
