@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind+Madurai&display=swap");
+.content-login-cadastro {
+  padding: 10rem;
+  margin: auto;
+  max-width: 60rem;
+}
+.content-login-cadastro .logo {
+  text-align: center;
+  background-color: #c1a866;
+  border-top-left-radius: 1.5rem;
+  border-top-right-radius: 1.5rem;
+  box-shadow: 0 0.3rem 0.4rem 0.1rem rgba(0, 0, 0, 0.2);
+}
+.content-login-cadastro .sc1 {
+  padding: 3rem;
+  background-color: #d9d9d9;
+  border-bottom-left-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
+  box-shadow: 0 0.3rem 0.4rem 0.1rem rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.content-login-cadastro .sc1 label {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.7rem;
+  text-transform: uppercase;
+  text-shadow: 0 0.3rem 0.4rem rgba(0, 0, 0, 0.3);
+}
+.content-login-cadastro .sc1 input {
+  padding: 1rem;
+  height: 2.3rem;
+  border-radius: 0.8rem;
+}
+.content-login-cadastro .sc1 button {
+  background-color: #80727b;
+  color: #edf2f4;
+  font-weight: bold;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.7rem;
+  height: 3.3rem;
+  border-radius: 0.8rem;
+}
+.content-login-cadastro .sc1 button:hover {
+  background-color: #c1a866;
+  color: #3C0909;
+  cursor: pointer;
+  height: 4rem;
+}
+.content-login-cadastro .sc1 div {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  font-size: 1.6rem;
+}
+.content-login-cadastro .sc1 div span,
+.content-login-cadastro .sc1 div a {
+  margin-top: 1rem;
+  text-shadow: 0 0.3rem 0.4rem rgba(0, 0, 0, 0.3);
+}
+.content-login-cadastro .sc1 div a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+.content-login-cadastro .sc1 div a:hover {
+  text-decoration: underline;
+  color: #3C0909;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+* {
+  font-family: "Hind Madurai", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  list-style: none;
+}
+
+.login-cadastro {
+  background-image: linear-gradient(to right, #3C0909, #66666e);
+}
+
+@media screen and (max-width: 454px) {
+  .content-login-cadastro .sc1 label {
+    font-size: 1.4rem;
+  }
+  .content-login-cadastro .sc1 button {
+    font-size: 1.4rem;
+  }
+  .content-login-cadastro .sc1 div {
+    font-size: 1.4rem;
+  }
+}
+@media screen and (max-width: 432px) {
+  .content-login-cadastro .sc1 label {
+    font-size: 1.4rem;
+  }
+  .content-login-cadastro .sc1 button {
+    font-size: 1.2rem;
+  }
+  .content-login-cadastro .sc1 div {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (max-width: 409px) {
+  .content-login-cadastro .sc1 label {
+    font-size: 1.4rem;
+  }
+  .content-login-cadastro .sc1 button {
+    font-size: 1rem;
+  }
+  .content-login-cadastro .sc1 div {
+    font-size: 1rem;
+  }
+}/*# sourceMappingURL=styles.css.map */
